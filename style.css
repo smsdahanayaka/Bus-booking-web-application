@@ -1,0 +1,288 @@
+
+* {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+.body_container{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(images/background.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+.header {
+    height: 15vh;
+    width: 100vw; 
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+/*--- nav bar ---*/
+
+.navbar{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+nav {
+    display: flex;
+    padding: 2% 6%;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img {
+    width: 150px;
+}
+
+.nav-links {
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.nav-links ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.nav-links ul li::after {
+    content: "";
+    width: 0%;
+    height: 2px;
+    background: #f8fd02;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav-links ul li:hover::after {
+    width: 100%;
+}
+.row{
+    width: 100vw;
+    position: absolute;
+    display: flex;
+    top: 0;
+    gap: 450px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* footer */
+
+
+
+.footer {
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    bottom: 0;
+    background-color: #333;
+    color: #fff;
+    
+}
+.footer-col{
+    margin: 10px;
+    flex: 1;
+}
+
+
+.footer h4,p {
+    color: #fff;
+    padding-top: 0;
+    font-size: 20px;
+    
+    
+}
+
+.footer a {
+    color: #fff;
+    background-color: transparent;
+    text-decoration: none;
+    
+  
+}
+
+.footer-col img {
+    height: 100px;
+    width: 150px;
+    margin: 5px;
+}
+
+
+.footer-links ul li {
+    list-style: none;
+    padding: 4px 20px 0px 20px;
+    position: relative;
+}
+
+.footer-links ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.footer-links ul li::after {
+    content: "";
+    width: 0%;
+    height: 2px;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.footer-links ul li:hover::after {
+    width: 100%;
+}
+
+
+
+/* edit profile */
+
+.container-body{
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+}
+.img-search{
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+    justify-content: center; 
+    
+}
+
+.img1{
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.container-body-1{
+    width: 100vw;
+    height: 70vh;  
+}
+
+.container-inner-1{
+    width: 25vw;
+    height: auto;
+}
+
+.inner-set{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img-profile{
+    width: 200px;
+    height: auto;
+    border-radius: 20px;
+    
+}
+
+.inner-set-p{
+    font-size: 30px; 
+    font-weight: 600;   
+}
+.container-inner-2{
+    width: 75vw;
+    height: 50px;
+}
+
+.card-header{
+    width: 75vw;
+    height: 10vh;
+    color: white;
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.card-body-in{
+    width: 100%;
+    height: 60vh;
+    
+    
+}
+.card-body-inner{
+    width: 75vw;
+    height: auto;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    padding: 10px;
+    
+}
+.card-body-inner-1{
+    flex: 1;
+    display: flex;
+}
+.small{
+    width: 150px;
+    height: 20px;
+    
+}
+
+.form-control{
+    width: 350px;
+    height: 30px;
+}
+.card-body-inner-btn{
+    display: flex;
+    justify-content: flex-end;
+    right: 100px;
+   
+}
+.btn-submit,.btn-cancel{
+    margin-right: 20px;
+    padding: 5px 20px;
+    background-color: rgb(43, 82, 189);
+    color: white;
+    border:1px solid #fff;
+    border-radius: 10px;
+    box-shadow: 3px 3px 20px #7894c7;
+    
+}
+
+th{
+    color: white;
+    border: 3px solid black;
+    width: 9vw;
+    padding-top:10px ;
+    padding-bottom:10px ;
+}
+
+
+td{
+    color: rgb(228, 222, 222);
+    border: 3px solid rgb(34, 34, 34);
+    width: 9vw;
+    padding-top:5px ;
+    padding-bottom:5px ;
+}
+td:last-child{
+    padding-top:15px ;
+    padding-bottom:15px ;
+}

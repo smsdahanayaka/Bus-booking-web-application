@@ -1,0 +1,167 @@
+* {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    height: 300px;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url("images/background.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img {
+    width: 150px;
+}
+
+.nav-links {
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.nav-links ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.nav-links ul li::after {
+    content: "";
+    width: 0%;
+    height: 2px;
+    background: #f8fd02;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav-links ul li:hover::after {
+    width: 100%;
+}
+
+.body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+
+
+
+.container {
+    padding: 0 16px;
+}
+
+.row {
+    margin: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    color: white;
+}
+
+.button {
+    border: none;
+    outline: 0;
+    display: inline;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+}
+
+.button:hover {
+    background-color: #555;
+}
+
+h2 {
+    text-align: center;
+}
+
+.card p {
+    text-align: Justify;
+}
+
+h1 {
+    color: white;
+    font-size: 60px;
+}
+
+
+.footer {
+    left: 0;
+    bottom: 0;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+}
+
+.footer h4,
+p {
+    color: #fff;
+    padding-top: 0;
+    font-size: 20px;
+}
+
+.footer a {
+    color: #fff;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.footer-col img {
+    height: 100px;
+    width: 150px;
+    margin: 5px;
+}
+
+.footer-links ul li {
+    list-style: none;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.footer-links ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.footer-links ul li::after {
+    content: "";
+    width: 0%;
+    height: 2px;
+    background: red;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.footer-links ul li:hover::after {
+    width: 100%;
+}

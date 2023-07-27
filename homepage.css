@@ -1,0 +1,237 @@
+/*---- main header ----*/
+
+* {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url("images/background.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+
+/*--- nav bar ---*/
+
+nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img {
+    width: 150px;
+}
+
+.nav-links {
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.nav-links ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.nav-links ul li::after {
+    content: "";
+    width: 0%;
+    height: 2px;
+    background: darkcyan;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav-links ul li:hover::after {
+    width: 100%;
+}
+
+
+/*--- header content ---*/
+
+.easywaytours-heading {
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.easywaytours-heading h1 {
+    font-size: 62px;
+    color: white;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.easywaytours-heading p {
+    margin: 10px 0 40px;
+    font-size: 14px;
+    color: white;
+}
+
+.about-us-btn {
+    margin-top: 20px;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.about-us-btn:hover {
+    border: 1px solid darkslateblue;
+    background: darkslateblue;
+    color: gray;
+    transition: 1s;
+}
+
+
+/*---- Home page content ---*/
+
+.homepage-desc {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+p {
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+.row {
+    margin: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.desc-col {
+    flex-basis: 22%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 10%;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+.desc-col img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+h3 {
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.desc-col:hover {
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+.desc-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff3f3;
+    border: 1px solid #fff3f3;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.desc-btn:hover {
+    border: 1px solid #f44336;
+    background: #f44336;
+    color: #fff;
+    transition: 1s;
+}
+
+
+/*---- Footer ---*/
+
+.footer {
+    left: 0;
+    bottom: 0;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+}
+
+.footer h4,
+p {
+    color: #fff;
+    padding-top: 0;
+    font-size: 20px;
+}
+
+.footer a {
+    color: #fff;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.footer-col img {
+    height: 100px;
+    width: 150px;
+    margin: 5px;
+}
+
+.footer-links ul li {
+    list-style: none;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.footer-links ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.footer-links ul li::after {
+    content: "";
+    width: 0%;
+    height: 2px;
+    background: darkcyan;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.footer-links ul li:hover::after {
+    width: 100%;
+}
